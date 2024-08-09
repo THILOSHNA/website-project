@@ -955,6 +955,7 @@ img.breadCrumb_arrows {
   font-size: 1.25rem;
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
+  margin-top: 20px;
 }
 .eligibility-container p {
   font-size: 16px;
