@@ -416,7 +416,6 @@ heads-div .search-input-modal .close-icon-search {
   width: 96.375vw;
   max-width: 1250px;
   margin-top: 80px;
-  
 }
 
 .klk-breadcrumb-inner {
@@ -522,7 +521,6 @@ img.breadCrumb_arrows {
   .experience-banner {
     height: auto;
   }
-
 
   .mobile-slider-wrapper {
     display: block;
@@ -948,11 +946,10 @@ img.breadCrumb_arrows {
   margin-top: -10px;
   margin-bottom: 2rem;
 }
-@media (max-width: 768px) { 
-.eligibility-container {
-  padding-top: 3rem;
-  
-}
+@media (max-width: 768px) {
+  .eligibility-container {
+    padding-top: 3rem;
+  }
 }
 .eligibility-container h2 {
   font-size: 1.25rem;
@@ -981,12 +978,12 @@ img.breadCrumb_arrows {
 
 .visit-h2 {
   font-size: 26px;
-    font-style: normal;
-    font-feature-settings: normal;
-    line-height: 28px;
-    letter-spacing: 0.8px;
-    margin: 14px 8px 16px;
-    color: rgb(68, 68, 68);
+  font-style: normal;
+  font-feature-settings: normal;
+  line-height: 28px;
+  letter-spacing: 0.8px;
+  margin: 14px 8px 16px;
+  color: rgb(68, 68, 68);
 }
 .visit-container .tabs-wrapper {
   overflow-x: auto;
@@ -1002,7 +999,9 @@ img.breadCrumb_arrows {
   margin-left: 8px;
 }
 
-.visit-container .tablinks, .tablinks-train, .tablinks-flight{
+.visit-container .tablinks,
+.tablinks-train,
+.tablinks-flight {
   border-radius: 1.8rem;
   background-color: #d8d8d8;
   color: #171717;
@@ -1020,7 +1019,9 @@ img.breadCrumb_arrows {
   font-weight: 500;
 }
 
-.visit-container .tablinks.active, .tablinks-train.active, .tablinks-flight.active{
+.visit-container .tablinks.active,
+.tablinks-train.active,
+.tablinks-flight.active {
   background-color: #171717;
   color: #fff;
 }
@@ -1074,12 +1075,16 @@ ul {
   margin: 12px;
 }
 
-.next-button, .next-button-train, .next-button-flight{
+.next-button,
+.next-button-train,
+.next-button-flight {
   display: none;
 }
 
 @media only screen and (max-width: 748px) {
-  .next-button, .next-button-train, .next-button-flight {
+  .next-button,
+  .next-button-train,
+  .next-button-flight {
     display: block;
     left: unset;
     right: 24px;
@@ -1156,9 +1161,7 @@ ul {
 
 /* -----------------------------------------listing --------------------------------- */
 
-
 .section-padding {
-  
   width: 96.375vw;
   max-width: 1250px;
   margin: 0 auto;
@@ -1251,7 +1254,6 @@ ul {
 
 .tourCard__content {
   padding: 20px 20px 10px;
-  
 }
 
 .tourCard__location {
@@ -1297,7 +1299,7 @@ ul {
   color: #0b822a !important;
 }
 
-.card-price-find{
+.card-price-find {
   text-align: left;
 }
 
@@ -1389,9 +1391,9 @@ strong {
 }
 .visitcard-content h3 {
   padding: 6px 0 6px 0;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 24px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 24px;
 }
 .visitcard-content h4 {
   font-size: 16px;
@@ -1413,7 +1415,6 @@ strong {
   margin-top: 10px;
   padding-left: 5px;
 }
-
 
 .seasoncard p {
   margin-bottom: 10px;
@@ -1455,7 +1456,7 @@ div#sidenav-visitor-tips {
   background-color: #fff;
 }
 
-.visitor-tips{
+.visitor-tips {
   padding: 15px;
 }
 
@@ -1520,10 +1521,10 @@ section.sld_section-padding {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 24px  24px 0px 0px;
+  border-radius: 24px 24px 0px 0px;
 }
 .sld_sliderCard__content {
-  padding: 28px 20px ;
+  padding: 28px 20px;
   position: relative;
   background-color: white;
   margin-top: -30px;
@@ -1533,7 +1534,6 @@ section.sld_section-padding {
 .dark-mode {
   display: none !important;
 }
-
 
 .card-title {
   font-size: 18px;
@@ -1559,12 +1559,14 @@ section.sld_section-padding {
   font-weight: 600;
 }
 
-.heading-6, h6, p{
+.heading-6,
+h6,
+p {
   margin: 0;
 }
 
-
-.heading-6, h6 {
+.heading-6,
+h6 {
   font-size: 18px;
   line-height: 32px;
   margin-right: 6px;
@@ -1582,15 +1584,13 @@ section.sld_section-padding {
   align-items: flex-end;
 }
 
-
 .btn.btn-gray {
   padding: 8px 18px !important;
   font-size: 14px !important;
   line-height: 22px !important;
   font-family: var(--manrope);
   font-weight: 700 !important;
-  background-color: rgb(241, 234, 234);
-  border-radius: 50px;
+  background-color: orange;
   border: 1px solid rgb(216, 214, 214);
 }
 
@@ -1612,7 +1612,6 @@ section.sld_section-padding {
 .container_faq {
   width: 100%;
   margin: 0 auto;
-  
 }
 
 section#faq {
@@ -1635,7 +1634,6 @@ section#faq {
   max-width: 1250px;
   margin: 0 auto;
 }
-
 
 .accordion__item {
   margin-bottom: 0.5rem;
@@ -2105,7 +2103,7 @@ footer#ftr a:hover {
   font-size: 14px;
 }
 
-.ftr-second-row{
+.ftr-second-row {
   background: #f7941e;
   background: -webkit-linear-gradient(left, #f15b2a, #f7941e);
   background: -o-linear-gradient(right, #f15b2a, #f7941e);
@@ -2378,8 +2376,8 @@ footer#ftr .ftr-cat-links a:hover {
   margin: auto;
   overflow-x: hidden;
   padding: 10px;
-    border-radius: 8px;
-    background-color: white;
+  border-radius: 8px;
+  background-color: white;
 }
 
 .accommodation-container {
@@ -2552,9 +2550,6 @@ h3 {
   font-size: 15px;
 }
 
-
-
-
 *,
 *:before,
 *:after {
@@ -2574,13 +2569,11 @@ user agent stylesheet div {
   color: var(--text-color);
 }
 
-
 @media (max-width: 1023px) {
   .u-hide\@desktop- {
     display: none !important;
   }
 }
-
 
 .showcase__terms-scroller {
   max-width: 100%;
@@ -2634,8 +2627,6 @@ select {
   text-transform: none;
 }
 
-
-
 @media (max-width: 1023px) {
   .u-hide\@desktop- {
     display: none !important;
@@ -2655,7 +2646,6 @@ select {
     width: 100%;
   }
 }
-
 
 @media (min-width: 1024px) {
   .u-hide\@desktop\+ {
@@ -3436,21 +3426,18 @@ select {
   width: calc(100% - 61px);
 }
 
-
-
-
 /* ------------------  */
 
 #hs-back-top {
   display: none;
-  background: #EE3B24;
+  background: #ee3b24;
   font-family: Arial;
   position: fixed;
   right: 20px;
   bottom: 20px;
   height: 36px;
   width: 36px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   line-height: 36px;
   cursor: pointer;
