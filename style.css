@@ -624,8 +624,8 @@ img.breadCrumb_arrows {
   }
 
   .mobile-slider-nav a {
-    width: 0.4rem; /* Smaller dots for small screens */
-    height: 0.4rem;
+    width: 0.5rem; /* Smaller dots for small screens */
+    height: 0.5rem;
   }
 }
 @media (max-width: 768px) {
