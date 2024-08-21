@@ -26,6 +26,10 @@ body {
   font-family: "Rubik";
   background-color: #e5eaf7; /* Setting a light background color */
 }
+
+picture {
+  display: contents;
+}
 h1 {
   color: #333;
   text-align: center;
