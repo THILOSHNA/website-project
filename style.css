@@ -1584,9 +1584,16 @@ h6 {
   flex-wrap: wrap;
 }
 
+.card-button .btn {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
 .endtime .card-price {
   display: flex;
   align-items: flex-end;
+  margin-bottom: 21px;
 }
 
 .btn.btn-gray {
